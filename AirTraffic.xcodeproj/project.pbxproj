@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A67DEBC51B82392F003CDF50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DEBC41B82392F003CDF50 /* main.m */; };
+		A67DEBC81B82392F003CDF50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DEBC71B82392F003CDF50 /* AppDelegate.m */; };
+		A67DEBCE1B82392F003CDF50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67DEBCC1B82392F003CDF50 /* Main.storyboard */; };
+		A67DEBD01B82392F003CDF50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67DEBCF1B82392F003CDF50 /* Images.xcassets */; };
+		A67DEBD31B82392F003CDF50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A67DEBD11B82392F003CDF50 /* LaunchScreen.xib */; };
+		A67DEBDF1B82392F003CDF50 /* AirTrafficTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DEBDE1B82392F003CDF50 /* AirTrafficTests.m */; };
+		A67DEBEA1B823A47003CDF50 /* AirTrafficViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DEBE91B823A47003CDF50 /* AirTrafficViewController.m */; };
+		A67DEBEE1B823C52003CDF50 /* PriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DEBED1B823C52003CDF50 /* PriorityQueue.m */; };
+		A67DEBF31B823CA4003CDF50 /* AircraftQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DEBF21B823CA4003CDF50 /* AircraftQueue.m */; };
+		A67DEBF61B824381003CDF50 /* Aircraft.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DEBF51B824381003CDF50 /* Aircraft.m */; };
+		A67DEBFE1B825D68003CDF50 /* AddAircraftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DEBFD1B825D68003CDF50 /* AddAircraftViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A67DEBD91B82392F003CDF50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A67DEBB71B82392F003CDF50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A67DEBBE1B82392F003CDF50;
+			remoteInfo = AirTraffic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A67DEBBF1B82392F003CDF50 /* AirTraffic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirTraffic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67DEBC31B82392F003CDF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67DEBC41B82392F003CDF50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A67DEBC61B82392F003CDF50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A67DEBC71B82392F003CDF50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A67DEBCD1B82392F003CDF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A67DEBCF1B82392F003CDF50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A67DEBD21B82392F003CDF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A67DEBD81B82392F003CDF50 /* AirTrafficTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirTrafficTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67DEBDD1B82392F003CDF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67DEBDE1B82392F003CDF50 /* AirTrafficTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirTrafficTests.m; sourceTree = "<group>"; };
+		A67DEBE81B823A47003CDF50 /* AirTrafficViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirTrafficViewController.h; sourceTree = "<group>"; };
+		A67DEBE91B823A47003CDF50 /* AirTrafficViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirTrafficViewController.m; sourceTree = "<group>"; };
+		A67DEBEC1B823C52003CDF50 /* PriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityQueue.h; sourceTree = "<group>"; };
+		A67DEBED1B823C52003CDF50 /* PriorityQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriorityQueue.m; sourceTree = "<group>"; };
+		A67DEBF11B823CA4003CDF50 /* AircraftQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AircraftQueue.h; sourceTree = "<group>"; };
+		A67DEBF21B823CA4003CDF50 /* AircraftQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AircraftQueue.m; sourceTree = "<group>"; };
+		A67DEBF41B824381003CDF50 /* Aircraft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aircraft.h; sourceTree = "<group>"; };
+		A67DEBF51B824381003CDF50 /* Aircraft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aircraft.m; sourceTree = "<group>"; };
+		A67DEBFC1B825D68003CDF50 /* AddAircraftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAircraftViewController.h; sourceTree = "<group>"; };
+		A67DEBFD1B825D68003CDF50 /* AddAircraftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAircraftViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A67DEBBC1B82392F003CDF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67DEBD51B82392F003CDF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A67DEBB61B82392F003CDF50 = {
+			isa = PBXGroup;
+			children = (
+				A67DEBC11B82392F003CDF50 /* AirTraffic */,
+				A67DEBDB1B82392F003CDF50 /* AirTrafficTests */,
+				A67DEBC01B82392F003CDF50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A67DEBC01B82392F003CDF50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A67DEBBF1B82392F003CDF50 /* AirTraffic.app */,
+				A67DEBD81B82392F003CDF50 /* AirTrafficTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A67DEBC11B82392F003CDF50 /* AirTraffic */ = {
+			isa = PBXGroup;
+			children = (
+				A67DEBF01B823C6F003CDF50 /* Data structures */,
+				A67DEBEF1B823C62003CDF50 /* Models */,
+				A67DEBEB1B823C2E003CDF50 /* Controllers */,
+				A67DEBC61B82392F003CDF50 /* AppDelegate.h */,
+				A67DEBC71B82392F003CDF50 /* AppDelegate.m */,
+				A67DEBCC1B82392F003CDF50 /* Main.storyboard */,
+				A67DEBCF1B82392F003CDF50 /* Images.xcassets */,
+				A67DEBD11B82392F003CDF50 /* LaunchScreen.xib */,
+				A67DEBC21B82392F003CDF50 /* Supporting Files */,
+			);
+			path = AirTraffic;
+			sourceTree = "<group>";
+		};
+		A67DEBC21B82392F003CDF50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A67DEBC31B82392F003CDF50 /* Info.plist */,
+				A67DEBC41B82392F003CDF50 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A67DEBDB1B82392F003CDF50 /* AirTrafficTests */ = {
+			isa = PBXGroup;
+			children = (
+				A67DEBDE1B82392F003CDF50 /* AirTrafficTests.m */,
+				A67DEBDC1B82392F003CDF50 /* Supporting Files */,
+			);
+			path = AirTrafficTests;
+			sourceTree = "<group>";
+		};
+		A67DEBDC1B82392F003CDF50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A67DEBDD1B82392F003CDF50 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A67DEBEB1B823C2E003CDF50 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A67DEBE81B823A47003CDF50 /* AirTrafficViewController.h */,
+				A67DEBE91B823A47003CDF50 /* AirTrafficViewController.m */,
+				A67DEBFC1B825D68003CDF50 /* AddAircraftViewController.h */,
+				A67DEBFD1B825D68003CDF50 /* AddAircraftViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A67DEBEF1B823C62003CDF50 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A67DEBF41B824381003CDF50 /* Aircraft.h */,
+				A67DEBF51B824381003CDF50 /* Aircraft.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A67DEBF01B823C6F003CDF50 /* Data structures */ = {
+			isa = PBXGroup;
+			children = (
+				A67DEBEC1B823C52003CDF50 /* PriorityQueue.h */,
+				A67DEBED1B823C52003CDF50 /* PriorityQueue.m */,
+				A67DEBF11B823CA4003CDF50 /* AircraftQueue.h */,
+				A67DEBF21B823CA4003CDF50 /* AircraftQueue.m */,
+			);
+			name = "Data structures";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A67DEBBE1B82392F003CDF50 /* AirTraffic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67DEBE21B82392F003CDF50 /* Build configuration list for PBXNativeTarget "AirTraffic" */;
+			buildPhases = (
+				A67DEBBB1B82392F003CDF50 /* Sources */,
+				A67DEBBC1B82392F003CDF50 /* Frameworks */,
+				A67DEBBD1B82392F003CDF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirTraffic;
+			productName = AirTraffic;
+			productReference = A67DEBBF1B82392F003CDF50 /* AirTraffic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A67DEBD71B82392F003CDF50 /* AirTrafficTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67DEBE51B82392F003CDF50 /* Build configuration list for PBXNativeTarget "AirTrafficTests" */;
+			buildPhases = (
+				A67DEBD41B82392F003CDF50 /* Sources */,
+				A67DEBD51B82392F003CDF50 /* Frameworks */,
+				A67DEBD61B82392F003CDF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A67DEBDA1B82392F003CDF50 /* PBXTargetDependency */,
+			);
+			name = AirTrafficTests;
+			productName = AirTrafficTests;
+			productReference = A67DEBD81B82392F003CDF50 /* AirTrafficTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A67DEBB71B82392F003CDF50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				TargetAttributes = {
+					A67DEBBE1B82392F003CDF50 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A67DEBD71B82392F003CDF50 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A67DEBBE1B82392F003CDF50;
+					};
+				};
+			};
+			buildConfigurationList = A67DEBBA1B82392F003CDF50 /* Build configuration list for PBXProject "AirTraffic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A67DEBB61B82392F003CDF50;
+			productRefGroup = A67DEBC01B82392F003CDF50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A67DEBBE1B82392F003CDF50 /* AirTraffic */,
+				A67DEBD71B82392F003CDF50 /* AirTrafficTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A67DEBBD1B82392F003CDF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67DEBCE1B82392F003CDF50 /* Main.storyboard in Resources */,
+				A67DEBD31B82392F003CDF50 /* LaunchScreen.xib in Resources */,
+				A67DEBD01B82392F003CDF50 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67DEBD61B82392F003CDF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A67DEBBB1B82392F003CDF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67DEBC81B82392F003CDF50 /* AppDelegate.m in Sources */,
+				A67DEBFE1B825D68003CDF50 /* AddAircraftViewController.m in Sources */,
+				A67DEBF31B823CA4003CDF50 /* AircraftQueue.m in Sources */,
+				A67DEBEE1B823C52003CDF50 /* PriorityQueue.m in Sources */,
+				A67DEBF61B824381003CDF50 /* Aircraft.m in Sources */,
+				A67DEBC51B82392F003CDF50 /* main.m in Sources */,
+				A67DEBEA1B823A47003CDF50 /* AirTrafficViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67DEBD41B82392F003CDF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A67DEBDF1B82392F003CDF50 /* AirTrafficTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A67DEBDA1B82392F003CDF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A67DEBBE1B82392F003CDF50 /* AirTraffic */;
+			targetProxy = A67DEBD91B82392F003CDF50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A67DEBCC1B82392F003CDF50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A67DEBCD1B82392F003CDF50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A67DEBD11B82392F003CDF50 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A67DEBD21B82392F003CDF50 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A67DEBE01B82392F003CDF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A67DEBE11B82392F003CDF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A67DEBE31B82392F003CDF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AirTraffic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A67DEBE41B82392F003CDF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AirTraffic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A67DEBE61B82392F003CDF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AirTrafficTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirTraffic.app/AirTraffic";
+			};
+			name = Debug;
+		};
+		A67DEBE71B82392F003CDF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AirTrafficTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirTraffic.app/AirTraffic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A67DEBBA1B82392F003CDF50 /* Build configuration list for PBXProject "AirTraffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67DEBE01B82392F003CDF50 /* Debug */,
+				A67DEBE11B82392F003CDF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67DEBE21B82392F003CDF50 /* Build configuration list for PBXNativeTarget "AirTraffic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67DEBE31B82392F003CDF50 /* Debug */,
+				A67DEBE41B82392F003CDF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A67DEBE51B82392F003CDF50 /* Build configuration list for PBXNativeTarget "AirTrafficTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67DEBE61B82392F003CDF50 /* Debug */,
+				A67DEBE71B82392F003CDF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A67DEBB71B82392F003CDF50 /* Project object */;
+}
