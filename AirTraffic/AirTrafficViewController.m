@@ -101,8 +101,6 @@
 
 - (void)addAircraft:(Aircraft *)aircraft {
     [self.aircraftQueue addObject:aircraft];
-    
-    [self updateLastAddedWithAircraft:aircraft];
     [self updateAircraftCount];
 }
 
@@ -123,10 +121,6 @@
 
 - (void)updateLastRetrivedWithAircraft:(Aircraft *)aircraft {
     self.lastRetrievedLabel.text = [aircraft displayString];
-}
-
-- (void)updateLastAddedWithAircraft:(Aircraft *)aircraft {
-    self.lastAddedLabel.text = [aircraft displayString];
 }
 
 #pragma mark - AddAircraftDelegate

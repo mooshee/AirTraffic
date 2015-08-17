@@ -13,7 +13,6 @@
 @property (nonatomic, weak) IBOutlet UIView *statusView;
 @property (nonatomic, weak) IBOutlet UILabel *aircraftCountLabel;
 @property (nonatomic, weak) IBOutlet UILabel *lastRetrievedLabel;
-@property (nonatomic, weak) IBOutlet UILabel *lastAddedLabel;
 
 @property (nonatomic, weak) IBOutlet UIButton *startButton;
 @property (nonatomic, weak) IBOutlet UIButton *addButton;

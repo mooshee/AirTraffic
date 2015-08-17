@@ -11,7 +11,7 @@
 @implementation AircraftQueue
 
 - (instancetype)init {
-    self = [self initWithComparator:^NSComparisonResult(id obj1, id obj2) {
+    self = [super initWithComparator:^NSComparisonResult(id obj1, id obj2) {
         Aircraft *aircraft1 = (Aircraft *)obj1;
         Aircraft *aircraft2 = (Aircraft *)obj2;
         
