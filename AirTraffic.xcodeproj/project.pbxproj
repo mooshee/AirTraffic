@@ -12,23 +12,12 @@
 		A67DEBCE1B82392F003CDF50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67DEBCC1B82392F003CDF50 /* Main.storyboard */; };
 		A67DEBD01B82392F003CDF50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67DEBCF1B82392F003CDF50 /* Images.xcassets */; };
 		A67DEBD31B82392F003CDF50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A67DEBD11B82392F003CDF50 /* LaunchScreen.xib */; };
-		A67DEBDF1B82392F003CDF50 /* AirTrafficTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DEBDE1B82392F003CDF50 /* AirTrafficTests.m */; };
 		A67DEBEA1B823A47003CDF50 /* AirTrafficViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DEBE91B823A47003CDF50 /* AirTrafficViewController.m */; };
 		A67DEBEE1B823C52003CDF50 /* PriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DEBED1B823C52003CDF50 /* PriorityQueue.m */; };
 		A67DEBF31B823CA4003CDF50 /* AircraftQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DEBF21B823CA4003CDF50 /* AircraftQueue.m */; };
 		A67DEBF61B824381003CDF50 /* Aircraft.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DEBF51B824381003CDF50 /* Aircraft.m */; };
 		A67DEBFE1B825D68003CDF50 /* AddAircraftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A67DEBFD1B825D68003CDF50 /* AddAircraftViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A67DEBD91B82392F003CDF50 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A67DEBB71B82392F003CDF50 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A67DEBBE1B82392F003CDF50;
-			remoteInfo = AirTraffic;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A67DEBBF1B82392F003CDF50 /* AirTraffic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirTraffic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,9 +28,6 @@
 		A67DEBCD1B82392F003CDF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A67DEBCF1B82392F003CDF50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A67DEBD21B82392F003CDF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A67DEBD81B82392F003CDF50 /* AirTrafficTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirTrafficTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A67DEBDD1B82392F003CDF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A67DEBDE1B82392F003CDF50 /* AirTrafficTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirTrafficTests.m; sourceTree = "<group>"; };
 		A67DEBE81B823A47003CDF50 /* AirTrafficViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirTrafficViewController.h; sourceTree = "<group>"; };
 		A67DEBE91B823A47003CDF50 /* AirTrafficViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirTrafficViewController.m; sourceTree = "<group>"; };
 		A67DEBEC1B823C52003CDF50 /* PriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityQueue.h; sourceTree = "<group>"; };
@@ -62,13 +48,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A67DEBD51B82392F003CDF50 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				A67DEBC11B82392F003CDF50 /* AirTraffic */,
-				A67DEBDB1B82392F003CDF50 /* AirTrafficTests */,
 				A67DEBC01B82392F003CDF50 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				A67DEBBF1B82392F003CDF50 /* AirTraffic.app */,
-				A67DEBD81B82392F003CDF50 /* AirTrafficTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,23 +88,6 @@
 			children = (
 				A67DEBC31B82392F003CDF50 /* Info.plist */,
 				A67DEBC41B82392F003CDF50 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A67DEBDB1B82392F003CDF50 /* AirTrafficTests */ = {
-			isa = PBXGroup;
-			children = (
-				A67DEBDE1B82392F003CDF50 /* AirTrafficTests.m */,
-				A67DEBDC1B82392F003CDF50 /* Supporting Files */,
-			);
-			path = AirTrafficTests;
-			sourceTree = "<group>";
-		};
-		A67DEBDC1B82392F003CDF50 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A67DEBDD1B82392F003CDF50 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -183,24 +143,6 @@
 			productReference = A67DEBBF1B82392F003CDF50 /* AirTraffic.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A67DEBD71B82392F003CDF50 /* AirTrafficTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A67DEBE51B82392F003CDF50 /* Build configuration list for PBXNativeTarget "AirTrafficTests" */;
-			buildPhases = (
-				A67DEBD41B82392F003CDF50 /* Sources */,
-				A67DEBD51B82392F003CDF50 /* Frameworks */,
-				A67DEBD61B82392F003CDF50 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A67DEBDA1B82392F003CDF50 /* PBXTargetDependency */,
-			);
-			name = AirTrafficTests;
-			productName = AirTrafficTests;
-			productReference = A67DEBD81B82392F003CDF50 /* AirTrafficTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,10 +153,6 @@
 				TargetAttributes = {
 					A67DEBBE1B82392F003CDF50 = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					A67DEBD71B82392F003CDF50 = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = A67DEBBE1B82392F003CDF50;
 					};
 				};
 			};
@@ -232,7 +170,6 @@
 			projectRoot = "";
 			targets = (
 				A67DEBBE1B82392F003CDF50 /* AirTraffic */,
-				A67DEBD71B82392F003CDF50 /* AirTrafficTests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,13 +182,6 @@
 				A67DEBCE1B82392F003CDF50 /* Main.storyboard in Resources */,
 				A67DEBD31B82392F003CDF50 /* LaunchScreen.xib in Resources */,
 				A67DEBD01B82392F003CDF50 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A67DEBD61B82392F003CDF50 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,23 +202,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A67DEBD41B82392F003CDF50 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A67DEBDF1B82392F003CDF50 /* AirTrafficTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A67DEBDA1B82392F003CDF50 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A67DEBBE1B82392F003CDF50 /* AirTraffic */;
-			targetProxy = A67DEBD91B82392F003CDF50 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A67DEBCC1B82392F003CDF50 /* Main.storyboard */ = {
@@ -412,40 +326,6 @@
 			};
 			name = Release;
 		};
-		A67DEBE61B82392F003CDF50 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AirTrafficTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirTraffic.app/AirTraffic";
-			};
-			name = Debug;
-		};
-		A67DEBE71B82392F003CDF50 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AirTrafficTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirTraffic.app/AirTraffic";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -465,14 +345,7 @@
 				A67DEBE41B82392F003CDF50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		A67DEBE51B82392F003CDF50 /* Build configuration list for PBXNativeTarget "AirTrafficTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A67DEBE61B82392F003CDF50 /* Debug */,
-				A67DEBE71B82392F003CDF50 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
